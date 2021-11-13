@@ -95,7 +95,7 @@
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card border-dark">
-                                    <div class="card-body bg-light">
+                                    <div class="card-body bg-light bg-gradient">
                                         <br><br><br><br><br>
                                     </div>
                                 <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -106,64 +106,127 @@
                                     </div>
                                 </a>
                                       <!-- Modal -->
-                                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered">
-                                          <div class="modal-content">
-                                            <div class="modal-header">
-                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <label for="nombre_asignatura">Nombre de asignatura:</label>
-                                                            <input type="text" class="form-control" id="nombre_asignatura">
-                                                            <label for="nivel">Nivel:</label>
-                                                            <select class="form-select" name="nivel" id="nivel">
-                                                                <option value="">Seleccione nivel</option>
-                                                                <option>101</option>
-                                                                <option>102</option>
-                                                                <option>201</option>
-                                                                <option>202</option>
-                                                                <option>301</option>
-                                                                <option>302</option>
-                                                                <option>401</option>
-                                                                <option>402</option>
-                                                                <option>501</option>
-                                                                <option>502</option>
-                                                                <option>601</option>
-                                                                <option>602</option>
-                                                            </select>
-                                                            <label for="color">Color:</label>
-                                                            <input type="color" id="color" class="form-control">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <label for="nombre_asignatura">Nombre de asignatura:</label>
+                                                                <input type="text" class="form-control" id="nombre_asignatura">
+                                                                <label for="nivel">Nivel:</label>
+                                                                <select class="form-select" name="nivel" id="nivel">
+                                                                    <option value="">Seleccione nivel</option>
+                                                                    <option>101</option>
+                                                                    <option>102</option>
+                                                                    <option>201</option>
+                                                                    <option>202</option>
+                                                                    <option>301</option>
+                                                                    <option>302</option>
+                                                                    <option>401</option>
+                                                                    <option>402</option>
+                                                                    <option>501</option>
+                                                                    <option>502</option>
+                                                                    <option>601</option>
+                                                                    <option>602</option>
+                                                                </select>
+                                                                <label for="color">Color:</label>
+                                                                <input type="color" id="color" class="form-control">
+                                                            </div>
+                                                            <div class="col-6 p-5">
+                                                                <button class="btn btn-warning">Configuracion de evaluaciones</button>
+                                                            </div>
                                                         </div>
-                                                        <div class="col-6 p-5">
-                                                            <button class="btn btn-warning">Configuracion de evaluaciones</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Crear</button>
+                                                </div>
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Crear</button>                                            </div>
-                                          </div>
                                         </div>
-                                      </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card border-dark">
                                     <div class="card-body bg-warning">
+                                        <div class="position-relative">
+                                            <div class="position-absolute top-0 end-0">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-body dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                      <li><a class="dropdown-item" href="#">Editar</a></li>
+                                                      <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                                    </ul>
+                                                  </div>
+                                            </div>
+                                        </div>
                                         <br><br><br><br><br>
                                     </div>
-                                    <div class="card-footer bg-transparent">Taller de sistemas</div>
+                                    <a href="taller_sistemas_clase.html">
+                                        <div class="card-footer">
+                                            <button type="button" class="btn btn-translucent" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                Taller de Sistemas            
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card border-dark">
                                     <div class="card-body bg-danger">
+                                        <div class="position-relative">
+                                            <div class="position-absolute top-0 end-0">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-body dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                Editar
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#miModal">
+                                                                Eliminar
+                                                            </a>
+                                                            <!-- <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                                                                <div class="modal-dialog modal-dialog-centered">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="modal-title">¡Aviso!</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <h2>¿Esta seguro que desea eliminar la asignatura?</h2>
+                                                                            <h6 class="text-disabled">*Se eliminaran todos los ficheros y datos asociados a esta asignatura</h6>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SI</button>
+                                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">NO</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>--> 
+                                                        </li>
+                                                    </ul>
+                                                  </div>
+                                            </div>
+                                        </div>
                                         <br><br><br><br><br>
                                     </div>
-                                    <div class="card-footer bg-transparent">Electivo</div>
+                                    <a href="Electivo_clase.html">
+                                        <div class="card-footer">
+                                            <button type="button" class="btn btn-translucent" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                Electivo           
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
