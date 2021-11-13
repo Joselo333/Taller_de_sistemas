@@ -98,17 +98,24 @@
                                     <div class="card-body bg-light">
                                         <br><br><br><br><br>
                                     </div>
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                        <div class="card-footer bg-transparent">
-                                            + Crear Asignatura
-                                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <form>
+                                <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <div class="card-footer">
+                                        <button type="button" class="btn btn-translucent" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                            + Crear Asignatura               
+                                        </button>
+                                    </div>
+                                </a>
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-6">
                                                             <label for="nombre_asignatura">Nombre de asignatura:</label>
                                                             <input type="text" class="form-control" id="nombre_asignatura">
                                                             <label for="nivel">Nivel:</label>
@@ -127,17 +134,20 @@
                                                                 <option>601</option>
                                                                 <option>602</option>
                                                             </select>
-                                                        </form>
+                                                            <label for="color">Color:</label>
+                                                            <input type="color" id="color" class="form-control">
+                                                        </div>
+                                                        <div class="col-6 p-5">
+                                                            <button class="btn btn-warning">Configuracion de evaluaciones</button>
+                                                        </div>
                                                     </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                      <button type="button" class="btn btn-primary">Understood</button>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary">Crear</button>                                            </div>
+                                          </div>
                                         </div>
-                                    </a>
+                                      </div>
                                 </div>
                             </div>
                             <div class="col">
