@@ -171,8 +171,16 @@
                                                     <button class="btn btn-body dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                                     </button>
                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                                      <li><a class="dropdown-item" href="#">Editar</a></li>
-                                                      <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                                        <li>
+                                                            <a class="dropdown-item" href="#">
+                                                                Editar
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#miModal">
+                                                                Eliminar
+                                                            </a>
+                                                        </li>
                                                     </ul>
                                                   </div>
                                             </div>
@@ -206,26 +214,26 @@
                                                             <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#miModal">
                                                                 Eliminar
                                                             </a>
-                                                            <!-- <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
-                                                                <div class="modal-dialog modal-dialog-centered">
-                                                                    <div class="modal-content">
-                                                                        <div class="modal-header">
-                                                                            <h5 class="modal-title" id="modal-title">¡Aviso!</h5>
-                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                                        </div>
-                                                                        <div class="modal-body">
-                                                                            <h2>¿Esta seguro que desea eliminar la asignatura?</h2>
-                                                                            <h6 class="text-disabled">*Se eliminaran todos los ficheros y datos asociados a esta asignatura</h6>
-                                                                        </div>
-                                                                        <div class="modal-footer">
-                                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SI</button>
-                                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">NO</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>--> 
                                                         </li>
                                                     </ul>
+                                                    <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                                                        <div class="modal-dialog modal-dialog-centered">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modal-title">¡Aviso!</h5>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <h2>¿Esta seguro que desea eliminar la asignatura?</h2>
+                                                                    <h6 class="text-secondary">*Se eliminaran todos los ficheros y datos asociados a esta asignatura*</h6>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SI</button>
+                                                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">NO</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                   </div>
                                             </div>
                                         </div>
