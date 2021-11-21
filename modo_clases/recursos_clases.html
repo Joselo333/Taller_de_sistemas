@@ -7,9 +7,44 @@
 
     <title>Portal Academico UDA</title>
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/proxy/tSk4QSQKjsO-v4tRPLvpysOmLjNSwdtHWX8pxc87kJiHGVebZRuJEsixEk3UptO0aMd-lcFZ19gEgfSpPRbzS35S">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+
+
+
+
 </head>
 <body>
-    <div class="container mw-100">
+    <div class="container mw-100" >
         <div class="row">
             <div class="col-12 d-sm-none">
                 <div class="px-3 py-2 bg-dark text-white">
@@ -47,61 +82,54 @@
                     </div>
                   </div>
             </div>
-            <div class="d-none d-sm-block col-sm-3 ">
-                <div class="d-flex flex-column flex-shrink-0 p-2 text-white bg-dark">
-                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                      <span class="fs-4">Sidebar</span>
-                    </a>
-                    <hr>
-                    <ul class="nav nav-pills flex-column mb-auto">
-                        <li class="nav-item">
-                            <a href="inicio_clases.html" class="nav-link text-white" aria-current="page">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-                                Inicio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                                Calendario
-                            </a>
-                        </li>
-                        <li>
-                            <a href="asignaturas_clases.html" class="nav-link text-white ">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                                Asignaturas
-                            </a>
-                        </li>
-                        <li>
-                            <a href="asignaturas_clases.html" class="nav-link text-white ">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                            &nbsp&nbsp&nbspv Taller de Sistemas
-                            </a>
-                        </li>
-                        <li>
-                            <a href="recursos_clases.html" class="nav-link text-white active">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp·Recursos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="nav-link text-white ">
-                            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp·Notas
-                            </a>
-                        </li>
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        <hr>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-                                Configuracion
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
+
+            <div class="flex-shrink-0 p-3 bg-dark bg-opacity-100" style="width: 280px; height: auto; min-height: 723px; ">
+    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom text-white">
+      <img class="bi me-2" width="45" height="45" src="login_usuario.png">
+      <span class="fs-5 fw-semibold">John Castro</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn  align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          Inicio
+        </button>
+     
+      </li>
+      <li class="mb-1">
+        <button class="btn  align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Calendario
+        </button>
+       
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed text-white " data-bs-toggle="collapse" data-bs-target="#asignaturas-collapse" aria-expanded="false">
+          Asignaturas
+        </button>
+        <div class="collapse" id="asignaturas-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#taller-collapse" aria-expanded="false">
+                Taller de Sistemas
+              </button>
+              <div class="collapse" id="taller-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded text-white">Notas</a></li>
+                  <li><a href="#" class="link-dark rounded text-white">Recursos</a></li>
+                  
+                </ul>
+              </div>
+            
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Configuración
+        </button>
+        
+      </li>
+    </ul>
+  </div>
             <div class="col-12 col-sm-9 px-5 py-1">
                 <div class="row">
                     <div class="col-12">
@@ -110,7 +138,7 @@
                                 <li class="breadcrumb-item" ><a href="" class="link-secondary"></a></li>
                                 <li class="breadcrumb-item"><a href="inicio_clases.html" class="link-secondary">Inicio</a></li>
                                 <li class="breadcrumb-item" aria-current="page"><a href="asignaturas_clases.html" class="link-secondary">Asignaturas</a></li>
-                                <li class="breadcrumb-item"><a href="inicio_clases.html" class="link-secondary">Taller de Sistemas</a></li>
+                                <li class="breadcrumb-item"><a href="taller_sistemas_clase.html" class="link-secondary">Taller de Sistemas</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="recursos_clases.html">Recursos</a></li>
                             </ol>
                         </nav>
@@ -120,6 +148,7 @@
                 <div class="container">
                     <div class="row">
                       <div class="col">
+                          
                         <h2>Recursos Generales</h2>
                         <br>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-play-fill" viewBox="0 0 16 16">
