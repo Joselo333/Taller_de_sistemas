@@ -91,3 +91,13 @@ main {
 textarea{
   resize: none;
 }
+.finde{
+  background: #CACACA;
+  border: #CACACA;
+}
+.card-body{
+  height: 120px;
+  }
+.boton-carrusel{
+  height: 9%;
+}
