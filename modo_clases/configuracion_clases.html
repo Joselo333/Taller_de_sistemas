@@ -145,8 +145,74 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="col-12">
-                    
+                <!--Content-->
+                <div class="row my-5">
+                  <div class="col-4">
+                    <div class="row text-center">
+                      <div class="col-12">
+                        <img class="bi me-2 border border-dark p-2" width="120" height="120" src="login_usuario.png">
+                      </div>
+                      <div class="col-12">
+                        <a href="" class="link-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cambiar</a>
+
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Seleccione foto</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="mb-3">
+                                  <input class="form-control" type="file" id="formFile">
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No cambiar</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cambiar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="mb-3 row">
+                      <label for="nombre" class="col-sm-2 col-form-label text-end">Nombre:</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="nombre" value="Jonh Castro">
+                      </div>
+                    </div>
+                    <div class="mb-3 row">
+                      <label for="pass" class="col-sm-2 col-form-label text-end">Contraseña:</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="pass" value="contraseña123456789">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-5">
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label for="textarea" class="form-label">Acerca de mi:</label>
+                      <br>
+                      <textarea class="form-control" id="textarea" rows="8"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 my-5">
+                    <div class="mb-3 row">
+                      <label for="nombre" class="col-3 col-form-label text-end">Tamaño de fuente:</label>
+                      <div class="col-7">
+                        <select class="form-select">
+                          <option selected disabled>Normal</option>
+                          <option value="1">Pequeña</option>
+                          <option value="2">Normal</option>
+                          <option value="3">Grande</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
