@@ -254,32 +254,99 @@
                         <form>
                             <div class="row">
                                 <div class="col-6">
+                                    <label for="nivel">Nivel:</label>
+                                    <a class="form-select text-decoration-none text-dark" id="a" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Seleccione nivel
+                                    </a>
+                                    <div class="collapse carta" id="collapseExample">
+                                        <div class="card card-body ">
+                                            <button type="button" class="btn q border border-white" id="cc000" value="Seleccione nivel">Seleccione nivel</button>
+                                            <button type="button" class="btn q border border-white" id="cc101" value="101">101</button>
+                                            <button type="button" class="btn q border border-white" id="cc102" value="102">102</button>
+                                            <button type="button" class="btn q border border-white" id="cc201" value="201">201</button>
+                                            <button type="button" class="btn q border border-white" id="cc202" value="202">202</button>
+                                            <button type="button" class="btn q border border-white" id="cc301" value="301">301</button>
+                                            <button type="button" class="btn q border border-white" id="cc302" value="302">302</button>
+                                            <button type="button" class="btn q border border-white" id="cc401" value="401">401</button>
+                                            <button type="button" class="btn q border border-white" id="cc402" value="402">402</button>
+                                            <button type="button" class="btn q border border-white" id="cc501" value="501">501</button>
+                                            <button type="button" class="btn q border border-white" id="cc502" value="502">502</button>
+                                            <button type="button" class="btn q border border-white" id="cc601" value="601">601</button>
+                                            <button type="button" class="btn q border border-white" id="cc602" value="602">602</button>
+                                            <br><br><br><br><br><br><br>
+                                        </div>
+                                    </div>
                                     <label for="nombre_asignatura">Nombre de asignatura:</label>
                                     <select class="form-select" id="nombre_asignatura">
                                         <option value="">Seleccione asignatura</option>
-                                        <option>Herramientas de desarrollo</option>
-                                        <option>Taller de sistemas</option>
-                                        <option>Ingenieria de software</option>
-                                        <option>Taller de conectividad y sistemas operativos</option>
-                                        <option>Electivo 1</option>
-                                        <option>Electivo 2</option>
-                                        <option>Ingles 4</option>
-                                    </select>
-                                    <label for="nivel">Nivel:</label>
-                                    <select class="form-select" name="nivel" id="nivel">
-                                        <option value="">Seleccione nivel</option>
-                                        <option>101</option>
-                                        <option>102</option>
-                                        <option>201</option>
-                                        <option>202</option>
-                                        <option>301</option>
-                                        <option>302</option>
-                                        <option>401</option>
-                                        <option selected>402</option>
-                                        <option>501</option>
-                                        <option>502</option>
-                                        <option>601</option>
-                                        <option>602</option>
+                                        <option id="a0101" class="c101">Calculo 1</option>
+                                        <option id="a1101" class="c101">Algebra 1</option>
+                                        <option id="a2101" class="c101">Quimica General</option>
+                                        <option id="a3101" class="c101">Tecnicas de comunicacion</option>
+                                        <option id="a0102" class="c102">Calculo 2</option>
+                                        <option id="a1102" class="c102">Fisica 1</option>
+                                        <option id="a2102" class="c102">Geologia general</option>
+                                        <option id="a3102" class="c102">Algebra 2</option>
+                                        <option id="a0201" class="c201">Calculo 3</option>
+                                        <option id="a1201" class="c201">Ingenieria en materiales</option>
+                                        <option id="a2201" class="c201">Fisica 2</option>
+                                        <option id="a3201" class="c201">Introduccion a la economia</option>
+                                        <option id="a4201" class="c201">Dibujo de ingenieria</option>
+                                        <option id="a0202" class="c202">Ecuaciones diferenciales</option>
+                                        <option id="a1202" class="c202">Estadisticas y probabilidades</option>
+                                        <option id="a2202" class="c202">Fisica 3</option>
+                                        <option id="a3202" class="c202">Introduccion a la programacion</option>
+                                        <option id="a4202" class="c202">Termodinamica</option>
+                                        <option id="a0301" class="c301">Mecanica de fluidos</option>
+                                        <option id="a1301" class="c301">Investigacion operativa</option>
+                                        <option id="a2301" class="c301">Lenguaje de programacion 1</option>
+                                        <option id="a3301" class="c301">Introduccion a la electronica</option>
+                                        <option id="a4301" class="c301">Introduccion a la teoria de automatas</option>
+                                        <option id="a5301" class="c301">Ingles 1</option>
+                                        <option id="a0302" class="c302">Etica profesional</option>
+                                        <option id="a1302" class="c302">Lenguaje de programacion 2</option>
+                                        <option id="a2302" class="c302">Estructura de datos</option>
+                                        <option id="a3302" class="c302">Sistema Operativo 1</option>
+                                        <option id="a4302" class="c302">Arquitectura de sistemas computacionales</option>
+                                        <option id="a5302" class="c302">Contabilidad general</option>
+                                        <option id="a6302" class="c302">Ingles 2</option>
+                                        <option id="a0401" class="c401">Taller de relaciones interpersonales</option>
+                                        <option id="a1401" class="c401">Gestion ambiental</option>
+                                        <option id="a2401" class="c401">Base de datos</option>
+                                        <option id="a3401" class="c401">Administracion de empresas</option>
+                                        <option id="a4401" class="c401">Redes de computadores</option>
+                                        <option id="a5401" class="c401">Compiladores</option>
+                                        <option id="a6401" class="c401">Sistema de informacion administrativo</option>
+                                        <option id="a7401" class="c401">Ingles 3</option>                                        
+                                        <option id="a0402" class="c402">Herramientas de desarrollo</option>
+                                        <option id="a1402" class="c402">Taller de sistemas</option>
+                                        <option id="a2402" class="c402">Ingenieria de software</option>
+                                        <option id="a3402" class="c402">Taller de conectividad y sistemas operativos</option>
+                                        <option id="a4402" class="c402">Electivo 1</option>
+                                        <option id="a5402" class="c402">Electivo 2</option>
+                                        <option id="a6402" class="c402">Ingles 4</option>
+                                        <option id="a0501" class="c501">Comportamiento organizacional</option>
+                                        <option id="a1501" class="c501">Teoria economica</option>
+                                        <option id="a2501" class="c501">Ingenieria de software 2</option>
+                                        <option id="a3501" class="c501">Marco legal</option>
+                                        <option id="a4501" class="c501">Modelo y simulacion</option>
+                                        <option id="a5501" class="c501">Electivo 3</option>
+                                        <option id="a0502" class="c502">Taller de comunicacion empresarial</option>
+                                        <option id="a1502" class="c502">Introduccion a las finanzas</option>
+                                        <option id="a2502" class="c502">Inteligencia artificial</option>
+                                        <option id="a3502" class="c502">Organizacion y metodo</option>
+                                        <option id="a4502" class="c502">Tecnologia de la informacion</option>
+                                        <option id="a5502" class="c502">Electivo 4</option>
+                                        <option id="a6502" class="c502">Electivo 5</option>
+                                        <option id="a0601" class="c601">Estrategia comercial</option>
+                                        <option id="a1601" class="c601">Direccion de operaciones</option>
+                                        <option id="a2601" class="c601">Evaluacion de proyecto</option>
+                                        <option id="a3601" class="c601">Gestion informatica</option>
+                                        <option id="a4601" class="c601">Seminario de titulacion</option>
+                                        <option id="a5601" class="c601">Electivo 6</option>
+                                        <option id="a0602" class="c602">Estrategia de empresas</option>
+                                        <option id="a1602" class="c602">Taller de creacion de empresas</option>
+                                        <option id="a2602" class="c602">Trabajo de titulacion</option>                                        
                                     </select>
                                     <label for="color">Color:</label>
                                     <input type="color" id="color" class="form-control">
@@ -360,6 +427,1009 @@
             </div>
         </div>
     <!--Fin de Modal eliminar-->
+
+    <!--Funcion para selects-->
+    <script>
+        const cc000 = document.getElementById('cc000');
+  
+          cc000.addEventListener('click', function () {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602');
+            var x = document.getElementById("cc000").value;
+            document.getElementById("a").innerHTML = x;
+        }); 
+
+         const cc101 = document.getElementById('cc101');
+  
+         cc101.addEventListener('click', function () {
+          if (a0101.classList.contains('c101')) {
+            a0101.classList.remove('c101');
+            a1101.classList.remove('c101');
+            a2101.classList.remove('c101');
+            a3101.classList.remove('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602');              
+            var x = document.getElementById("cc101").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc102 = document.getElementById('cc102');
+  
+         cc102.addEventListener('click', function () {
+          if (a0102.classList.contains('c102')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.remove('c102');
+            a1102.classList.remove('c102');
+            a2102.classList.remove('c102');
+            a3102.classList.remove('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc102").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc201 = document.getElementById('cc201');
+  
+         cc201.addEventListener('click', function () {
+          if (a0201.classList.contains('c201')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.remove('c201');
+            a1201.classList.remove('c201');
+            a2201.classList.remove('c201');
+            a3201.classList.remove('c201');
+            a4201.classList.remove('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc201").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+        
+        const cc202 = document.getElementById('cc202');
+  
+         cc202.addEventListener('click', function () {
+          if (a0202.classList.contains('c202')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.remove('c202');
+            a1202.classList.remove('c202');
+            a2202.classList.remove('c202');
+            a3202.classList.remove('c202');
+            a4202.classList.remove('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc202").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+        
+        const cc301 = document.getElementById('cc301');
+  
+         cc301.addEventListener('click', function () {
+          if (a0301.classList.contains('c301')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.remove('c301');
+            a1301.classList.remove('c301');
+            a2301.classList.remove('c301');
+            a3301.classList.remove('c301');
+            a4301.classList.remove('c301');
+            a5301.classList.remove('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc301").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+        
+        const cc302 = document.getElementById('cc302');
+  
+         cc302.addEventListener('click', function () {
+          if (a0302.classList.contains('c302')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.remove('c302');
+            a1302.classList.remove('c302');
+            a2302.classList.remove('c302');
+            a3302.classList.remove('c302');
+            a4302.classList.remove('c302');
+            a5302.classList.remove('c302');
+            a6302.classList.remove('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc302").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+        
+        const cc401 = document.getElementById('cc401');
+  
+         cc401.addEventListener('click', function () {
+          if (a0401.classList.contains('c401')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.remove('c401');
+            a1401.classList.remove('c401');
+            a2401.classList.remove('c401');
+            a3401.classList.remove('c401');
+            a4401.classList.remove('c401');
+            a5401.classList.remove('c401');
+            a6401.classList.remove('c401');
+            a7401.classList.remove('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc401").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc402 = document.getElementById('cc402');
+  
+         cc402.addEventListener('click', function () {
+          if (a0402.classList.contains('c402')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.remove('c402');
+            a1402.classList.remove('c402');
+            a2402.classList.remove('c402');
+            a3402.classList.remove('c402');
+            a4402.classList.remove('c402');
+            a5402.classList.remove('c402');
+            a6402.classList.remove('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc402").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc501 = document.getElementById('cc501');
+  
+         cc501.addEventListener('click', function () {
+          if (a0501.classList.contains('c501')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.remove('c501');
+            a1501.classList.remove('c501');
+            a2501.classList.remove('c501');
+            a3501.classList.remove('c501');
+            a4501.classList.remove('c501');
+            a5501.classList.remove('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc501").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc502 = document.getElementById('cc502');
+  
+         cc502.addEventListener('click', function () {
+          if (a0502.classList.contains('c502')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.remove('c502');
+            a1502.classList.remove('c502');
+            a2502.classList.remove('c502');
+            a3502.classList.remove('c502');
+            a4502.classList.remove('c502');
+            a5502.classList.remove('c502');
+            a6502.classList.remove('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc502").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc601 = document.getElementById('cc601');
+  
+         cc601.addEventListener('click', function () {
+          if (a0601.classList.contains('c601')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.remove('c601');
+            a1601.classList.remove('c601');
+            a2601.classList.remove('c601');
+            a3601.classList.remove('c601');
+            a4601.classList.remove('c601');
+            a5601.classList.remove('c601');
+            a0602.classList.add('c602');
+            a1602.classList.add('c602');
+            a2602.classList.add('c602'); 
+            var x = document.getElementById("cc601").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+
+        const cc602 = document.getElementById('cc602');
+  
+         cc602.addEventListener('click', function () {
+          if (a0602.classList.contains('c602')) {
+            a0101.classList.add('c101');
+            a1101.classList.add('c101');
+            a2101.classList.add('c101');
+            a3101.classList.add('c101');
+            a0102.classList.add('c102');
+            a1102.classList.add('c102');
+            a2102.classList.add('c102');
+            a3102.classList.add('c102');
+            a0201.classList.add('c201');
+            a1201.classList.add('c201');
+            a2201.classList.add('c201');
+            a3201.classList.add('c201');
+            a4201.classList.add('c201');
+            a0202.classList.add('c202');
+            a1202.classList.add('c202');
+            a2202.classList.add('c202');
+            a3202.classList.add('c202');
+            a4202.classList.add('c202');
+            a0301.classList.add('c301');
+            a1301.classList.add('c301');
+            a2301.classList.add('c301');
+            a3301.classList.add('c301');
+            a4301.classList.add('c301');
+            a5301.classList.add('c301');
+            a0302.classList.add('c302');
+            a1302.classList.add('c302');
+            a2302.classList.add('c302');
+            a3302.classList.add('c302');
+            a4302.classList.add('c302');
+            a5302.classList.add('c302');
+            a6302.classList.add('c302');
+            a0401.classList.add('c401');
+            a1401.classList.add('c401');
+            a2401.classList.add('c401');
+            a3401.classList.add('c401');
+            a4401.classList.add('c401');
+            a5401.classList.add('c401');
+            a6401.classList.add('c401');
+            a7401.classList.add('c401');
+            a0402.classList.add('c402');
+            a1402.classList.add('c402');
+            a2402.classList.add('c402');
+            a3402.classList.add('c402');
+            a4402.classList.add('c402');
+            a5402.classList.add('c402');
+            a6402.classList.add('c402');
+            a0501.classList.add('c501');
+            a1501.classList.add('c501');
+            a2501.classList.add('c501');
+            a3501.classList.add('c501');
+            a4501.classList.add('c501');
+            a5501.classList.add('c501');
+            a0502.classList.add('c502');
+            a1502.classList.add('c502');
+            a2502.classList.add('c502');
+            a3502.classList.add('c502');
+            a4502.classList.add('c502');
+            a5502.classList.add('c502');
+            a6502.classList.add('c502');
+            a0601.classList.add('c601');
+            a1601.classList.add('c601');
+            a2601.classList.add('c601');
+            a3601.classList.add('c601');
+            a4601.classList.add('c601');
+            a5601.classList.add('c601');
+            a0602.classList.remove('c602');
+            a1602.classList.remove('c602');
+            a2602.classList.remove('c602'); 
+            var x = document.getElementById("cc602").value;
+            document.getElementById("a").innerHTML = x;
+          }
+        });
+      </script>
+      <!--Fin de funcion-->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
