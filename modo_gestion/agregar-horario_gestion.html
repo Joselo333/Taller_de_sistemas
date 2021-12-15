@@ -265,9 +265,43 @@
                                 </button>
                             </div>
                             <div class="col-6 text-start">
-                                <button type="button" class="btn btn-secondary">
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#eliminarClase">
                                     Eliminar clase
                                 </button>
+              
+                                <!-- Modal -->
+                                <div class="modal fade" id="eliminarClase" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="eliminarClaseLabel" aria-hidden="true">
+                                  <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="eliminarClaseLabel">¿Desea eliminar clase?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <div class="mb-3 row">
+                                          <label for="inputPassword" class="col-4 col-form-label text-end">Asignatura:</label>
+                                            <div class="col-8">
+                                                <select class="form-select">
+                                                    <option selected class="fw-bold">Nombre de Asignatura</option>
+                                                    <option value="0" class="bg-warning fw-bold">Taller de Sistemas</option>
+                                                    <option value="1" class="bg-danger fw-bold">Electivo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                          <label for="date" class="col-4 col-form-label text-end">Fecha:</label>
+                                          <div class="col-5">
+                                              <input class="form-control" id="date" format="yyyy-mm-dd" name="fecha_nac" type="date" placeholder="yyyy-mm-dd">
+                                          </div>
+                                        </div>  
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Eliminar</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
