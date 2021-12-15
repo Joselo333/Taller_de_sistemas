@@ -43,13 +43,13 @@ main {
   display: inline-flex;
   align-items: center;
   padding: .25rem .5rem;
-  color: rgba(0, 0, 0, .65);
+  color: #ffffff;
   background-color: transparent;
   border: 0;
 }
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: rgba(0, 0, 0, .85);
+  color: #fec524;
   background-color: #5e0c0c00;
 }
 
@@ -62,7 +62,7 @@ main {
 }
 
 .btn-toggle[aria-expanded="true"] {
-  color: rgba(0, 0, 0, .85);
+  color: #fec524;
 }
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(90deg);
@@ -80,8 +80,12 @@ main {
   background-color: #e27e7e00;
 }
 
-
-
+.texto{
+  color: #ffffff;
+}
+.texto:hover{
+  color: #fec524;
+}
 .scrollarea {
   overflow-y: auto;
 }
@@ -100,4 +104,13 @@ textarea{
   }
 .boton-carrusel{
   height: 9%;
+}
+.fondo{
+  background-color: #284d5a;
+}
+.letras{
+  color: #fec524;
+}
+.u{
+  background-color: #ebebeb;
 }
