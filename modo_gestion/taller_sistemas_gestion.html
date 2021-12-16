@@ -178,9 +178,11 @@
                     </div>
                     <div class="col-6">
                       <br><br><br><br><br><br><br><br>
-                      <button class="btn btn-primary" type="button">
-                        Importar alumnos
-                      </button>
+                      <a href="#importarAlumno" data-bs-toggle="modal">
+                        <button class="btn btn-primary" type="button">
+                          Importar alumnos
+                        </button>
+                      </a>
                     </div>
                     <div class="col-6">
                       <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -203,7 +205,7 @@
             </div>
         </div>
     </div>
-    <!--MODALS-->
+    <!--MODAL-->
     <div class="modal fade" id="modalCrear-alumno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -228,6 +230,26 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
             <button type="button" class="btn btn-primary">Crear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--MODAL-->
+    <div class="modal fade" id="importarAlumno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Importar Lista de Alumnos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Importar</button>
           </div>
         </div>
       </div>
