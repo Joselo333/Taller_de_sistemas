@@ -108,7 +108,18 @@ main {
   position: absolute;
   z-index: 1;
 }
-
+.resaltar1{
+  background-color: #ffc107
+  ;
+}
+.resaltar2{
+  background-color: #dc3545;
+}
+.resaltar:hover{
+  background-color: #0011ff;
+  border: solid 1px #000000;
+  color: #ffffff;
+}
 textarea{
   resize: none;
 }
