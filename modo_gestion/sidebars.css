@@ -111,7 +111,18 @@ main {
 .u{
   background-color: #ebebeb;
 }
-
+.resaltar1{
+  background-color: #ffc107
+  ;
+}
+.resaltar2{
+  background-color: #dc3545;
+}
+.resaltar:hover{
+  background-color: #0011ff;
+  border: solid 1px #000000;
+  color: #ffffff;
+}
 .fondo{
   background-color: #284d5a;
 }
