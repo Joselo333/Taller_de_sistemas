@@ -89,8 +89,25 @@ main {
 .scrollarea {
   overflow-y: auto;
 }
-
-.lh-tight { line-height: 1.25; }
+.texto1{
+  color: #000000;
+}
+.texto1:hover{
+  color: #0011ff;
+}
+.recurso{
+  border: solid 2px #000000;
+}
+.recurso:hover{
+  border-color: #0011ff;
+}
+.lh-tight { 
+  line-height: 1.25; 
+}
+.collapse_absolute{
+  position: absolute;
+  z-index: 1;
+}
 
 textarea{
   resize: none;

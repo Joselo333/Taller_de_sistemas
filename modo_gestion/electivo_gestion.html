@@ -7,7 +7,7 @@
 
     <title>Portal Academico UDA</title>
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/proxy/tSk4QSQKjsO-v4tRPLvpysOmLjNSwdtHWX8pxc87kJiHGVebZRuJEsixEk3UptO0aMd-lcFZ19gEgfSpPRbzS35S">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -185,32 +185,64 @@
                             </ol>
                         </nav>
                     </div>
-                    <div class="col-12">
-                        <h1>Electivo</h1><br>
+                    <div class="col-6">
+                        <h1>Electivo II</h1><br>
                         <button data-bs-toggle="modal" data-bs-target="#modalCrear-alumno" class="btn btn-primary mb-3">
                           + Crear Alumno
                         </button>
-                        <p>> Agustín Astudillo</p>
-                        <p>> Javier Pastén</p>
-                        <p>> José Jorquera</p>
+                        <p><i class="bi bi-dash"></i><a href="alumno1_gestion.html" class="text-decoration-none texto1"> Agustín Astudillo</a></p>
+                        
+                        <p ><i class="bi bi-dash"></i><a href="alumno2_gestion.html" class="text-decoration-none texto1"> Javier Pastén</a></p>
+                
+                        <p><i class="bi bi-dash"></i><a href="alumno3_gestion.html" class="text-decoration-none texto1"> José Jorquera</a></p>
                     </div>
-                    <div class="col-12">
-                      <div class="row row-cols-1 row-cols-md-3 g-4">
-                          <div class="col">
-                            <a href="recursos_gestion_electivo.html">
-                              <div class="card border-dark">
-                                  <img src="libro.png" class="img-fluid">
-                              <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                  <div class="card-footer">
-                                      <a href="recursos_gestion_electivo.html" type="button" class="btn btn-translucent" >
-                                          Recursos              
-                                      </a>
-                                  </div>
+                    <div class="col-6">
+                      <div class="row row-cols-2 g-4">
+                        <div class="col">
+                          <a href="recursos_gestion_electivo.html">
+                            <div class="card recurso my-2">
+                                <img src="libro.png" class="img-fluid">
+                            <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <div class="card-footer">
+                                    <a href="recursos_gestion_electivo.html" type="button" class="btn btn-translucent" >
+                                      Recursos              
+                                    </a>
+                                </div>
                             </a>
+                            </div>
+                          </a>
+                        </div>
+                          
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <br><br><br><br><br><br><br><br>
+                      <button class="btn btn-primary" type="button">
+                        Importar alumnos
+                      </button>
+                    </div>
+                    <div class="col-6">
+                      <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                          <a href="recursos_gestion_electivo.html">
+                            <div class="card recurso">
+                                <img src="libro.png" class="img-fluid">
+                            <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <div class="card-footer">
+                                    <a href="recursos_gestion_electivo.html" type="button" class="btn btn-translucent" >
+                                      Recursos              
+                                    </a>
+                                </div>
+                            </a>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
     <!--MODALS-->
     <div class="modal fade" id="modalCrear-alumno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
@@ -222,10 +254,16 @@
           <div class="modal-body">
             <div class="mb-3 row">
               <label for="nombre" class="col-5 col-form-label text-end">Nombre del alumno:</label>
-          <div class="col-7">
-              <input type="text" class="form-control" id="nombre">
-          </div>
-      </div>
+              <div class="col-7">
+                  <input type="text" class="form-control" id="nombre">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="rut" class="col-5 col-form-label text-end">Rut:</label>
+              <div class="col-7">
+                  <input type="text" class="form-control" id="rut">
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
