@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Portal Academico UDA</title>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/proxy/tSk4QSQKjsO-v4tRPLvpysOmLjNSwdtHWX8pxc87kJiHGVebZRuJEsixEk3UptO0aMd-lcFZ19gEgfSpPRbzS35S">
 
     <!-- Bootstrap core CSS -->
@@ -172,7 +172,16 @@
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td><p>¿Como ingresar asignatura?</p></td>
+                                    <td>
+                                      <a class="btn" data-bs-toggle="collapse" href="#collapseAsignatura" role="button" aria-expanded="false" aria-controls="collapseAsignatura">
+                                        <i class="bi bi-chevron-right"></i>¿Como ingresar asignatura?
+                                      </a>
+                                      <div class="collapse" id="collapseAsignatura">
+                                        <div class="card card-body video-responsive">
+                                          <iframe src="https://www.youtube.com/embed/Q7nKXpuhzsU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                      </div>  
+                                    </td>
                                     <td>Taller de sistemas</td>
                                     <td>Jueves 9:40</td>
                                     <td rowspan="4">
@@ -183,27 +192,59 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label for="email" class="form-label">Email:</label>
-                                                <input type="email" class="form-control" id="email" placeholder="correo@mail.com">
+                                                <input type="email" class="form-control" id="email" placeholder="correo@mail.com" required>
                                             </div>
                                             <div class="mb-3">
                                                 <label for="sugerencia" class="form-label">Escriba sugerencia:</label>
-                                                <textarea class="form-control" id="sugerencia" rows="3"></textarea>
+                                                <textarea class="form-control" id="sugerencia" rows="3" required></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                              <button class="btn btn-uda">
+                                                Enviar
+                                              </button>
                                             </div>
                                         </form>
                                     </td>
                                   </tr>
                                   <tr>
-                                    <td>¿Como agregar alumno?</td>
+                                    <td>
+                                      <a class="btn" data-bs-toggle="collapse" href="#collapseAlumno" role="button" aria-expanded="false" aria-controls="collapseAlumno">
+                                        <i class="bi bi-chevron-right"></i>¿Como agregar alumno?
+                                      </a>
+                                      <div class="collapse" id="collapseAlumno">
+                                        <div class="card card-body video-responsive">
+                                          <iframe src="https://www.youtube.com/embed/ehSJo9v0B1Q" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                      </div>  
+                                    </td>
                                     <td>Electivo II</td>
                                     <td>Jueves 11:20</td>                                    
                                   </tr>
                                   <tr>
-                                    <td>¿Como eliminar asignatura?</td>
+                                    <td>
+                                      <a class="btn" data-bs-toggle="collapse" href="#collapseDelete" role="button" aria-expanded="false" aria-controls="collapseDelete">
+                                        <i class="bi bi-chevron-right"></i>¿Como eliminar asignatura?
+                                      </a>
+                                      <div class="collapse" id="collapseDelete">
+                                        <div class="card card-body video-responsive">
+                                          <iframe src="https://www.youtube.com/embed/sLIB-hcSerk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                      </div>        
+                                    </td>
                                     <td>Electivo II</td>
                                     <td>Viernes 8:00</td>
                                   </tr>
                                   <tr>
-                                    <td>¿Como agregar clase?</td>
+                                    <td>
+                                      <a class="btn" data-bs-toggle="collapse" href="#collapseClase" role="button" aria-expanded="false" aria-controls="collapseClase">
+                                        <i class="bi bi-chevron-right"></i>¿Como agregar clase?
+                                      </a>
+                                      <div class="collapse" id="collapseClase">
+                                        <div class="card card-body video-responsive">
+                                          <iframe src="https://www.youtube.com/embed/FDOINIZEm5E" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                      </div>
+                                    </td>
                                     <td>Taller de Sistemas</td>
                                     <td>Viernes 17:20</td>
                                   </tr>

@@ -171,6 +171,9 @@
                                 <td scope="col">5.8</th>
                                 <td scope="col">10%</th>
                               </tr>
+                              <button data-bs-toggle="modal" data-bs-target="#modalNotas" class="btn btn-uda">
+                                Agregar nota
+                              </button>
                             </tbody>
                           </table>
                         </div> 
@@ -319,6 +322,40 @@
           </div>
         </div>
     </div>
+
+    <!--modal-->
+    <div class="modal fade" id="modalNotas" tabindex="-1" aria-labelledby="modalNotasLabel" data-bs-backdrop="static" data-bs-keyboard="false"  aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalNotasLabel">Agregar nota nueva</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <div class="mb-3 row">
+              <label for="time1" class="col-5 col-form-label text-end">Nota:</label>
+              <div class="col-2">
+                <input type="number" id="time1" min="0" max="7" step="0.1" value="4" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="time1" class="col-5 col-form-label text-end">Porcentaje de nota:</label>
+                  <div class="col-2">
+                      <input type="number" id="time1" min="10" max="100" value="33" class="form-control">
+                  </div>
+                  %
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--modal-->
+    
     <!--modal-->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">

@@ -126,7 +126,15 @@ main {
 .fondo{
   background-color: #284d5a;
 }
+.btn-uda{
+  background-color: #284d5a;
+  color: #ffffff;
+}
+.btn-uda:hover{
+  color: #fec524;
+  border: solid #fec524 2px;
 
+}
 textarea{
   resize: none;
 }
