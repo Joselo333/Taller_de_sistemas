@@ -266,6 +266,9 @@
                           </thead>
                           <tbody>
                             <tr>
+                              <button class="btn btn-uda" data-bs-toggle="modal" data-bs-target="#modalAsistencia">
+                                Agregar asistencia
+                              </button>
                               <td scope="col">Clase 01-11-21</th>
                               <td scope="col text-center">
                                 <div class="form-check">
@@ -322,6 +325,46 @@
           </div>
         </div>
     </div>
+
+    <!--modal-->
+    <div class="modal fade" id="modalAsistencia" tabindex="-1" aria-labelledby="modalAsistenciaLabel" data-bs-backdrop="static" data-bs-keyboard="false"  aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAsistenciaLabel">Agregar nota nueva</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <div class="mb-3 row">
+              <label for="time1" class="col-5 col-form-label text-end">Fecha:</label>
+              <div class="col-6">
+                <input type="date" class="form-control">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <div class="col-6 text-end">
+                <pre>Asistio
+                No asistio</pre>
+              </div>
+              <div class="col-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--modal-->
 
     <!--modal-->
     <div class="modal fade" id="modalNotas" tabindex="-1" aria-labelledby="modalNotasLabel" data-bs-backdrop="static" data-bs-keyboard="false"  aria-hidden="true">
